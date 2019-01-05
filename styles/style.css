@@ -1,0 +1,35 @@
+body {
+  font-size: 1em;
+}
+#delBtn {
+  color: red;
+  text-decoration: none;
+}
+ul  {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.outputUl {
+  font-size: 0.9em;
+}
+.check {
+  color: red;
+  margin-left: 4px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+}
+.check:focus {
+  outline: 0;
+}
+.outputInput:focus {
+  outline: 0;
+}
+.outputInput {
+
+}
+.outputButton {
+
+}
