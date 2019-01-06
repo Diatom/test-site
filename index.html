@@ -1,23 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>My test page</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="icon" href="images/icon-check.png">
+    <link rel="icon" href="data:;base64,=">
   </head>
-  <body>
 
-    <label>Take data: </label><input type="text" name="Take data" class="outputInput">
-    <button class="outputButton">Add</button><br>
-    <ul class="outputUl">
-      <li>
-        <a onclick="delOffer" href="#" id="delBtn">&#10006;</a>
-        text
-      </li>
+  <body>
+    <form id="form">
+      <label>
+        <span>Take data:</span>
+        <input type="text" name="output" class="outputInput">
+      </label>
+
+      <button type="submit" class="outputButton">Add</button>
+    </form>
+
+    <ul class="outputUl" id="listContainer">
     </ul>
 
-  <script src="scripts/main.js" async></script>
+    <script src="scripts/main.js"></script>
   </body>
 </html>
