@@ -1,18 +1,18 @@
 body {
   font-size: 1em;
+  font-family: sans-serif;
 }
-#delBtn {
-  color: red;
-  text-decoration: none;
-}
-ul  {
+
+ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
+
 .outputUl {
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
+
 .check {
   color: red;
   margin-left: 4px;
@@ -21,15 +21,11 @@ ul  {
   cursor: pointer;
   background-color: transparent;
 }
+
 .check:focus {
   outline: 0;
 }
+
 .outputInput:focus {
   outline: 0;
-}
-.outputInput {
-
-}
-.outputButton {
-
 }
