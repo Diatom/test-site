@@ -19,8 +19,8 @@ function redraw() {
 
   container.innerHTML = null
 
-  for (var i = 0; i < myData.length; i++) iter(i)
-  function iter(i) {
+  for (var i = 0; i < myData.length; i++) addItem(i)
+  function addItem(i) {
     var item = myData[i]
     var listItem = document.createElement('li')
     var btn = document.createElement('button')
